@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+html {
+  font-size: 10px;
+  background: url('./fakurian-design-Tc_4PdN-Fq0-unsplash.jpeg') bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier", monospace; 
+  }
+
+.keys-wrap {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  margin: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem .5rem;
+  transition: all 0.04s ease;
+  width: 100px;
+  text-align: center;
+  color: black;
+  border-radius: 30px;
+  background: #fdfdfd;
+  box-shadow:  8px 8px 19px #9d9d9d,
+            -8px -8px 19px #ffffff;
+}
+
+.playing {
+  transform: scale(0.95);
+  border-color: #ffffff;
+  box-shadow: 0 0 1rem #cccccc;
+}
+
+kbd {
+  display: block;
+  font-size: 3rem;
+  font-family: "Abril Fatface"; 
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: black;
+}
